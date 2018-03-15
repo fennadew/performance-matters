@@ -3,6 +3,8 @@
 * Minify JS
 * Compress images
 
+Improves with 0.51 sec
+
 ## Before
 ![Before](https://github.com/fennadew/performance-matters/blob/master/src/assets/img/start.png "Before")
 
