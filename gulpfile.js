@@ -1,6 +1,19 @@
 const gulp = require('gulp');
 const cleanCSS = require('gulp-clean-css');
 const uglify = require('gulp-uglify');
+const critical = require('critical');
+
+gulp.task('critical', function (cb) {
+    critical.generate({
+        base: 'src/',
+        src: 'index.html',
+        css: ['src/dist/css/bootstrap.css'],
+        dest: 'dist/css/styles.min.css',
+        minify: true,
+        width: 2100,
+        height: 1000
+    });
+});
 
 gulp.task('compress', function (cb) {
     return gulp.src('src/test/js/*.js')
