@@ -8,7 +8,6 @@ html {
     url('/dist/fonts/sourcesanspro-it.woff') format('woff');
     font-weight: 400;
     font-style: italic;
-    font-display: swap;
 }
 
 @font-face {
@@ -17,7 +16,6 @@ html {
     url('/dist/fonts/sourcesanspro-light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
@@ -26,7 +24,6 @@ html {
     url('/dist/fonts/sourcesanspro-lightit.woff') format('woff');
     font-weight: 300;
     font-style: italic;
-    font-display: swap;
 }
 
 @font-face {
@@ -35,5 +32,4 @@ html {
     url('/dist/fonts/sourcesanspro-regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
 }
