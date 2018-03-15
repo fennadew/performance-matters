@@ -18,7 +18,7 @@ Improves with 0.51 sec
 
 Improves with 5.98 sec
 
-![After gzip](https://github.com/fennadew/performance-matters/blob/master/src/assets/img/minify.png "After gzip")
+![After gzip](https://github.com/fennadew/performance-matters/blob/master/src/assets/img/gzip-low.png "After gzip")
 
 # References
 1. [Compression](https://www.npmjs.com/package/compression)
