@@ -9,4 +9,4 @@
 
 ## After minifying
 
-![After minifying](https://github.com/fennadew/performance-matters/blob/master/src/assets/img/start.png "After minifying")
+![After minifying](https://github.com/fennadew/performance-matters/blob/master/src/assets/img/minify.png "After minifying")
