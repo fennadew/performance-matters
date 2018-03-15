@@ -5,7 +5,7 @@
 
 ## Before
 
-![Before](https://github.com/fennadew/wafs/blob/master/src/assets/img/start.png "Before")
+![Before](https://github.com/fennadew/perfomance/blob/master/src/assets/img/start.png "Before")
 
 ## After minifying
 
