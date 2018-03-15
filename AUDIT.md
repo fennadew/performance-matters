@@ -20,13 +20,27 @@ Improves paint with 3.88 sec and usable page with 5.98 sec
 
 ![After gzip](https://github.com/fennadew/performance-matters/blob/performance-3/src/assets/img/gzip-low.png "After gzip")
 
-3. Critical css and Async JS
+3. Critical CSS and Async JS
 * Load JS async by using defer in the script tag
 * Add critical CSS and load the rest of the CSS Async.
 
 Improves paint with 0.33 sec and slows down usable page with 1.2 sec
 
 ![After cssloader](https://github.com/fennadew/performance-matters/blob/performance-3/src/assets/img/cssloader.png "After cssloader")
+
+4. Font loading
+* In CSS font-display: swap
+
+Improves paint with 3 sec and slows down usable page with 0.03 sec
+
+![After fontloader](https://github.com/fennadew/performance-matters/blob/performance-3/src/assets/img/fontloader.png "After fontloader")
+
+# Total
+
+Total improves paint with 7.88 sec and usable page with 5.31 sec
+![start](https://github.com/fennadew/performance-matters/blob/performance-3/src/assets/img/first.png "start")
+![finish](https://github.com/fennadew/performance-matters/blob/performance-3/src/assets/img/last.png "finish")
+
 
 # References
 1. [Compression](https://www.npmjs.com/package/compression)
